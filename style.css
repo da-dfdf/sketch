@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+
+}
+
+h1{
+    color:white;
+    font-size:45px;
+    background-color:orangered;
+    
+}
+
+#show_sketch{
+    float:right;
+    font-size:25;
+     
+}
+
+p{
+    font-size:25;
+    color:white;
+    padding:10px;
+}
+canvas{
+    border:5px,solid, white;
+    border-radius:20px;
+    animation-name:shadow;
+    animation-duration:7s;
+    margin-top:50px;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes shadow{
+    from{box-shadow:1px 1px 105px orange;};
+    to{box-shadow: 1px 1px 100px red;};
+}
